@@ -49,25 +49,25 @@ created and exported)
 
 #### `Comment` Component
 
-- Create a `Comment` component in the file, `Comment.js` within `src/` and don't forget to:
-  - `import React, { Component } from 'react'` at the top of our file
-  - Use the `class X extends Component {}` syntax
-  - export the class so it can be used in other files
-  - import the class in `BlogPost`
-- It should expect a single prop (the text of a comment), which can be used in the
+X- Create a `Comment` component in the file, `Comment.js` within `src/` and don't forget to:
+X  - `import React, { Component } from 'react'` at the top of our file
+X  - Use the `class X extends Component {}` syntax
+X  - export the class so it can be used in other files
+X  - import the class in `BlogPost`
+?- It should expect a single prop (the text of a comment), which can be used in the
   component via: `this.props.commentText`. This prop is passed in
   `src/BlogPost.js`
-- It should have a single `<div>` in its `render()` method
-- The `<div>` should have a `className="comment"` attribute
-- **Note:** The `BlogPost` component needs _minor_ alteration to properly pass
+X- It should have a single `<div>` in its `render()` method
+X- The `<div>` should have a `className="comment"` attribute
+?- **Note:** The `BlogPost` component needs _minor_ alteration to properly pass
   the contents of its `commentsArray` to each of the `Comment` components that
   it is rendering
-- Don't forget - we can unpack variable values directly with JSX by wrapping them
+?- Don't forget - we can unpack variable values directly with JSX by wrapping them
   in `{}`, i.e. `{this.props.commentText}`
 
 #### Take a Break
 
-- Look at something other than your computer screen for at least five minutes
+X- Look at something other than your computer screen for at least five minutes
 
 #### `ColorBox` Component
 
@@ -114,4 +114,3 @@ export default class Example extends Component {
 - [React Documentation: Components](https://reactjs.org/docs/react-component.html)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/react-dynamic-components-lab'>Dynamic Components Lab</a> on Learn.co and start learning to code for free.</p>
-
